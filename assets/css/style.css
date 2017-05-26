@@ -4,6 +4,7 @@
 0.0 COLOUR REFERENCES
 1.0 GENERAL
 2.0 TYPOGRAPHY
+3.0 TOP SECTION
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -22,7 +23,6 @@ Very dark grey:  #282A2B   bg
 1.0 GENERAL
 --------------------------------------------------------------*/
 body {
-	margin-top: 50px;
 	font-family: 'PT Sans', Helvetica, sans-serif;
   font-weight: 400;
 	font-size: 16px;
@@ -40,4 +40,17 @@ h5,
 h6 {
   font-family: 'Montserrat', 'Helvetica' , sans-serif;
   font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+3.0 TOP SECTION
+--------------------------------------------------------------*/
+#top-bar {
+  color: white;
+  background-color: #189960;
+  line-height: 2.8125em;
+}
+
+#top-bar a {
+  color: white;
 }
