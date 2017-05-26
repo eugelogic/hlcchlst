@@ -39,7 +39,6 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', 'Helvetica' , sans-serif;
-  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -53,4 +52,14 @@ h6 {
 
 #top-bar a {
   color: white;
+}
+
+#site-title {
+  min-height: 5.625em;
+}
+
+#site-title h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1.5em;
 }
