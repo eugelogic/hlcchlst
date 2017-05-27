@@ -6,6 +6,7 @@
 2.0 TYPOGRAPHY
 3.0 TOP SECTION
 4.0 JUMBOTRONS
+5.0 HOMEPAGE WIDGETS
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -181,6 +182,38 @@ nav li a:focus {
 
 #latest .latest-bottom {
   padding-top: 3em;
+}
+
+/*--------------------------------------------------------------
+5.0 HOMEPAGE WIDGETS
+--------------------------------------------------------------*/
+#hp-widgets {
+  padding-top: 2.25em;
+}
+
+#hp-widgets h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hp-widgets .btn-case {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#hp-widgets .btn {
+  color: white;
+  background-color: #189960;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Helvetica' , sans-serif;
+  padding: 1em 2em;
+}
+
+#hp-widgets .btn:hover {
+  color: #189960;
+  background-color: white;
+  border: 1px solid #189960;
 }
 
 /*--------------------------------------------------------------
