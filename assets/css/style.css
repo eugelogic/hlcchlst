@@ -67,7 +67,45 @@ h6 {
 }
 
 /* MAIN NAV MENU */
+nav {
+  border-top: 1px solid #ededed;
+}
 
+nav ul {
+  margin: 30px 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Montserrat', 'Helvetica' , sans-serif;
+  text-transform: uppercase;
+	padding: 0 10px;
+}
+
+nav li a {
+  color: #333333;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: #189960;
+  padding-top: 1.875em;
+  border-top: 3px solid #189960;
+}
+
+nav li .is-checked {
+  color: #189960;
+  padding-top: 1.875em;
+  border-top: 3px solid #189960;
+}
+
+nav li a:focus {
+  text-decoration: none;
+  color: #189960;
+  padding-top: 1.875em;
+  border-top: 3px solid #189960;
+}
 
 /*--------------------------------------------------------------
 4.0 ???
