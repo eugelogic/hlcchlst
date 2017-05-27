@@ -8,6 +8,7 @@
 4.0 JUMBOTRONS
 5.0 HOMEPAGE WIDGETS
 6.0 FOOTER
+7.0 EVENTS PAGE
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -33,6 +34,20 @@ body {
   color: #333333;
 }
 
+#page-title-bar {
+  max-height: 5.625em;
+  background: url('../img/Holly Lodge Community Centre hompepage banner.jpg') no-repeat fixed center;
+}
+
+#page-title-bar h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  margin-top: -0.5em;
+  text-transform: uppercase;
+}
+
 /*--------------------------------------------------------------
 2.0 TYPOGRAPHY
 --------------------------------------------------------------*/
@@ -45,6 +60,13 @@ h6 {
   font-family: 'Montserrat', 'Helvetica' , sans-serif;
 }
 
+a {
+  color: #189960;
+}
+
+a:hover {
+  color: #333333;
+}
 /*--------------------------------------------------------------
 3.0 TOP SECTION
 --------------------------------------------------------------*/
@@ -128,17 +150,13 @@ nav li a:focus {
 #hero h3 {
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.3125em;
+  text-align: center;
+  border-radius: 0.125em;
 }
 
 #hero h2 {
   font-size: 3.125em;
-  padding: 0.3125em;
-  text-align: center;
-}
-
-#hero h3 {
-  padding: 0.3125em;
-  text-align: center;
 }
 
 #hero .button-group {
@@ -244,6 +262,22 @@ footer a {
 
 footer a:hover {
   color: #8c8989;
+}
+
+/*--------------------------------------------------------------
+7.0 EVENTS PAGE
+--------------------------------------------------------------*/
+#calendar-intro h3 {
+  text-align: center;
+  line-height: 1.5em;
+  padding: 1em 0 2em;
+}
+
+#calendar {
+  min-height: 16em;
+  text-align: center;
+  background-color: #ededed;
+  padding-top: 3em;
 }
 
 /*--------------------------------------------------------------
