@@ -5,7 +5,7 @@
 1.0 GENERAL
 2.0 TYPOGRAPHY
 3.0 TOP SECTION
-4.0 ???
+4.0 JUMBOTRONS
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -108,9 +108,66 @@ nav li a:focus {
 }
 
 /*--------------------------------------------------------------
-4.0 ???
+4.0 JUMBOTRONS
 --------------------------------------------------------------*/
 
+#hero {
+  min-height: 25em;
+  background: url('../img/Holly Lodge Community Centre hompepage banner.jpg') no-repeat fixed center;
+}
+
+#hero h2,
+#hero h3 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#hero h2 {
+  font-size: 3.125em;
+  padding: 0.3125em;
+  text-align: center;
+}
+
+#hero h3 {
+  padding: 0.3125em;
+  text-align: center;
+}
+
+#hero .button-group {
+  text-align: center;
+  padding-top: 2em;
+}
+
+#hero .btn {
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Helvetica' , sans-serif;
+  padding: 1em 2em;
+}
+
+#hero .btn1 {
+  color: white;
+  background-color: #189960;
+  border: none;
+  margin-right: 2em;
+}
+
+#hero .btn1:hover {
+  color: #189960;
+  background-color: white;
+  border: none;
+}
+
+#hero .btn2 {
+  color: #189960;
+  background-color: white;
+  border: none;
+}
+
+#hero .btn2:hover {
+  color: white;
+  background-color: #189960;
+  border: none;
+}
 
 /*--------------------------------------------------------------
 X.0 MEDIA QUERIES
