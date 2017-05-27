@@ -110,10 +110,10 @@ nav li a:focus {
 /*--------------------------------------------------------------
 4.0 JUMBOTRONS
 --------------------------------------------------------------*/
-
 #hero {
   min-height: 25em;
   background: url('../img/Holly Lodge Community Centre hompepage banner.jpg') no-repeat fixed center;
+  margin-bottom: 0;
 }
 
 #hero h2,
@@ -167,6 +167,20 @@ nav li a:focus {
   color: white;
   background-color: #189960;
   border: none;
+}
+
+/* LATEST NEWS */
+#latest {
+  text-align: center;
+}
+
+#latest .latest-top {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 2em;
+}
+
+#latest .latest-bottom {
+  padding-top: 3em;
 }
 
 /*--------------------------------------------------------------
