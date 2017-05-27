@@ -7,6 +7,7 @@
 3.0 TOP SECTION
 4.0 JUMBOTRONS
 5.0 HOMEPAGE WIDGETS
+6.0 FOOTER
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -188,7 +189,7 @@ nav li a:focus {
 5.0 HOMEPAGE WIDGETS
 --------------------------------------------------------------*/
 #hp-widgets {
-  padding-top: 2.25em;
+  padding: 2.25em 0 5em;
 }
 
 #hp-widgets h3 {
@@ -214,6 +215,29 @@ nav li a:focus {
   color: #189960;
   background-color: white;
   border: 1px solid #189960;
+}
+
+/*--------------------------------------------------------------
+6.0 FOOTER
+--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: #8c8989;
+  background-color: #282A2B;
+  min-height: 4em;
+}
+
+footer p {
+  font-size: 0.75em;
+  margin-top: 1.5em;
+}
+
+footer a {
+  color: #bfbfbf;
+}
+
+footer a:hover {
+  color: #8c8989;
 }
 
 /*--------------------------------------------------------------
