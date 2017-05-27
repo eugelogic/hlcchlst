@@ -9,6 +9,7 @@
 5.0 HOMEPAGE WIDGETS
 6.0 FOOTER
 7.0 EVENTS PAGE
+8.0 NEWS PAGE
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -37,6 +38,7 @@ body {
 #page-title-bar {
   max-height: 5.625em;
   background: url('../img/Holly Lodge Community Centre hompepage banner.jpg') no-repeat fixed center;
+  margin-bottom: 0;
 }
 
 #page-title-bar h1 {
@@ -270,7 +272,7 @@ footer a:hover {
 #calendar-intro h3 {
   text-align: center;
   line-height: 1.5em;
-  padding: 1em 0 2em;
+  padding: 2em 0 2em;
 }
 
 #calendar {
@@ -278,6 +280,42 @@ footer a:hover {
   text-align: center;
   background-color: #ededed;
   padding-top: 3em;
+}
+
+/*--------------------------------------------------------------
+8.0 NEWS PAGE
+--------------------------------------------------------------*/
+#news-index-grid {
+  margin: 3em 0;
+}
+
+#news-index-grid img {
+  width: 100%;
+}
+
+#news-index-grid .news-wrapper {
+  border: 1px solid #ededed;
+}
+
+#news-index-grid .news-meta {
+  padding: 1.5em;
+}
+
+#news-index-grid .news-separator {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  height: 0.375em;
+  margin: 1em 0;
+}
+
+#news-index-grid .read-more {
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+#news-index-grid .read-more::after {
+  content: "\21D2";
+  margin-left: 0.5em;
 }
 
 /*--------------------------------------------------------------

@@ -46,8 +46,8 @@
       <div class="container">
       	<ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="events.html" class="is-checked">What's On</a></li>
-          <li><a href="news.html">News</a></li>
+          <li><a href="events.html">What's On</a></li>
+          <li><a href="news.html" class="is-checked">News</a></li>
           <li><a href="#">Hall Hire</a></li>
           <li><a href="#">Nursery</a></li>
           <li><a href="#">Contact Us</a></li>
@@ -60,29 +60,69 @@
     ================================================== -->
     <div class="jumbotron" id="page-title-bar">
       <div class="container">
-        <h1>What's On</h1>
+        <h1>News</h1>
       </div><!-- container -->
     </div><!-- jumbo -->
 
-    <!-- INTRO TO CALENDAR SECTION
+    <!-- NEWS INDEX GRID
     ================================================== -->
-    <section id="calendar-intro">
+    <section id="news-index-grid">
       <div class="container">
-        <h3>
-          Come along and take part in one of our events,<br />
-          or <a href="#">book an empty slot</a> if you want to <a href="#">hire the hall</a> or <a href="#">run your own class</a>.
-        </h3>
-      </div><!-- container -->
-    </section><!-- section -->
+        <div class="row">
 
-    <!-- EVENTS CALENDAR
+          <!-- 1st column
+          ================================================== -->
+          <div class="col-md-4">
+            <div class="news-wrapper">
+              <a href="#"><img src="assets/img/placeholder.jpg" alt="image placeholder"></a>
+              <div class="news-meta">
+                <a href="#"><h4>Community Centre Refurbishment</h4></a>
+                <p class="small">May 5th, 2016 | Categories: <a href="#">Uncategorized</a></p>
+                <div class="news-separator"></div>
+                <p>We've had a makeover! The centre had been looking a little tired lately, but fortunately we were able to obtain a grant to refurbish the kitchen, as well as reorganize and refurbish the main space. [...]</p>
+                <a href="#" class="read-more">Read More</a>
+              </div><!-- news-meta -->
+            </div><!-- news-wrapper -->
+          </div><!-- col -->
+
+          <!-- 2nd column
+          ================================================== -->
+          <div class="col-md-4">
+            <div class="news-wrapper">
+              <a href="#"><img src="assets/img/placeholder.jpg" alt="image placeholder"></a>
+              <div class="news-meta">
+                <a href="#"><h4>Community Centre Refurbishment</h4></a>
+                <p class="small">May 5th, 2016 | Categories: <a href="#">Uncategorized</a></p>
+                <div class="news-separator"></div>
+                <p>We've had a makeover! The centre had been looking a little tired lately, but fortunately we were able to obtain a grant to refurbish the kitchen, as well as reorganize and refurbish the main space. [...]</p>
+                <a href="#" class="read-more">Read More</a>
+              </div><!-- news-meta -->
+            </div><!-- news-wrapper -->
+          </div><!-- col -->
+
+    <!-- SIDEBAR
     ================================================== -->
-    <section id="calendar">
-     <div class="container">
-      <div class="row">
-        <h4>The Events Calendar Will Appear Here</h4>
-      </div><!-- row -->
-     </div><!-- container -->
+    <aside class="col-sm-4">
+
+      <div class="widget">
+        <form role="form" class="search-form">
+		      <label for="sidebar-search" class="sr-only">Search the blog</label>
+		    	<input type="text" placeholder="Search the blog..." id="sidebar-search">
+		    </form>
+      </div><!-- widget -->
+
+      <div class="widget">
+        <h4>Recent News</h4>
+      </div><!-- widget -->
+
+      <div class="widget">
+        <h4>Events Calendar</h4>
+      </div><!-- widget -->
+
+    </aside>
+
+        </div><!-- row -->
+      </div><!-- container -->
     </section>
 
     <!-- FOOTER
