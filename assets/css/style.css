@@ -49,6 +49,7 @@ h6 {
 3.0 TOP SECTION
 --------------------------------------------------------------*/
 #top-bar {
+  text-align: center;
   color: white;
   background-color: #189960;
   line-height: 2.8125em;
@@ -56,6 +57,11 @@ h6 {
 
 #top-bar a {
   color: white;
+  text-decoration: underline;
+}
+
+#top-bar a:hover {
+  text-decoration: none;
 }
 
 #site-title {
