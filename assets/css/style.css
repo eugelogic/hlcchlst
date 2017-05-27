@@ -10,6 +10,7 @@
 6.0 FOOTER
 7.0 EVENTS PAGE
 8.0 NEWS PAGE
+9.0 HALL HIRE PAGE
 X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -316,6 +317,56 @@ footer a:hover {
 #news-index-grid .read-more::after {
   content: "\21D2";
   margin-left: 0.5em;
+}
+
+/*--------------------------------------------------------------
+9.0 HALL HIRE PAGE
+--------------------------------------------------------------*/
+#blurb-and-map {
+  margin: 3em 0;
+}
+
+#hall-gallery {
+  margin-bottom: 2em;
+}
+
+#hall-gallery h3 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#hall-gallery img {
+  width: 100%;
+}
+
+#bottom-cta {
+  color: white;
+  background-color: #189960;
+  margin-bottom: 0;
+}
+
+#bottom-cta h3 {
+  text-align: right;
+}
+
+#bottom-cta .btn-case {
+  text-align: left;
+}
+
+#bottom-cta .btn {
+  color: #189960;
+  background-color: white;
+  border: 1px solid white;
+  margin-top: 0.75em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Helvetica' , sans-serif;
+  padding: 1em 2em;
+}
+
+#bottom-cta .btn:hover {
+  color: white;
+  background-color: #189960;
+  border: 1px solid white;
 }
 
 /*--------------------------------------------------------------
