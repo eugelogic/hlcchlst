@@ -1,19 +1,20 @@
 /*--------------------------------------------------------------
 ### TABLE OF CONTENTS:
 ----------------------------------------------------------------
-0.0 COLOUR REFERENCES
-1.0 GENERAL
-2.0 TYPOGRAPHY
-3.0 TOP SECTION
-4.0 JUMBOTRONS
-5.0 HOMEPAGE WIDGETS
-6.0 FOOTER
-7.0 EVENTS PAGE
-8.0 NEWS INDEX PAGE
-8.5 NEWS SINGLE PAGE
-9.0 HALL HIRE PAGE
+ 0.0 COLOUR REFERENCES
+ 1.0 GENERAL
+ 2.0 TYPOGRAPHY
+ 3.0 TOP SECTION
+ 4.0 JUMBOTRONS
+ 5.0 HOMEPAGE WIDGETS
+ 6.0 FOOTER
+ 7.0 EVENTS PAGE
+ 8.0 NEWS INDEX PAGE
+ 8.5 NEWS SINGLE PAGE
+ 9.0 HALL HIRE PAGE
 10.0 NURSERY PAGE
-X.0 MEDIA QUERIES
+11.0 ABOUT US PAGE
+ X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -423,6 +424,37 @@ footer a:hover {
 #blurb {
   min-height: 30em;
   margin: 3em 0;
+}
+
+/*--------------------------------------------------------------
+11.0 ABOUT US PAGE
+--------------------------------------------------------------*/
+#about-top-section h3,
+#about-map-section h3,
+#about-bottom-section h3 {
+  margin-top: 0;
+}
+
+#about-top-section {
+  margin: 3em 0;
+}
+
+#about-top-section img {
+  width: 100%;
+}
+
+#map-section {
+  text-align: center;
+  margin: 3em 0;
+}
+
+#about-bottom-section {
+  margin: 3em 0;
+}
+
+#about-bottom-section img {
+  width: 100%;
+  padding-bottom: 2em;
 }
 
 /*--------------------------------------------------------------
