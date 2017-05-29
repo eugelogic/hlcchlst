@@ -14,6 +14,7 @@
  9.0 HALL HIRE PAGE
 10.0 NURSERY PAGE
 11.0 ABOUT US PAGE
+12.0 GALLERY PAGE
  X.0 MEDIA QUERIES
 --------------------------------------------------------------*/
 
@@ -455,6 +456,23 @@ footer a:hover {
 #about-bottom-section img {
   width: 100%;
   padding-bottom: 2em;
+}
+
+/*--------------------------------------------------------------
+12.0 GALLERY PAGE
+--------------------------------------------------------------*/
+#gallery {
+  min-height: 30em;
+  margin: 3em 0;
+}
+
+#gallery h3 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#gallery img {
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
